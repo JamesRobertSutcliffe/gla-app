@@ -1,7 +1,13 @@
+:root {
+  --primary: rgba(0,49,64,255);
+  --secondary: #178eb3;
+  --tertiary: rgba(0,176,220,255);
+}
+
 * {
   font-family: "poppins";
 box-sizing: border-box;
-color: rgba(0,49,64,255);
+color: var(--primary);
 font-size: 16px;
 }
 
