@@ -6,9 +6,9 @@
 
 <style>
   h1 {
-    text-align: center;
+    text-align: left;
     font-size: 4rem;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1rem;
   }
 </style>
