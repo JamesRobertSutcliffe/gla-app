@@ -7,7 +7,7 @@
 <main>
   <div class="landing-page">
     <div class="width-90">
-      <Header headerText="Hi, I'm James..." />
+      <Header headerText="Hi, I'm James" />
     </div>
     <div class="center">
       <Character />
