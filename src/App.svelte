@@ -2,10 +2,11 @@
   import Character from "./components/Character.svelte";
   import Header from "./components/Header.svelte";
   import LowerText from "./components/LowerText.svelte";
+  import Map from "./components/Map.svelte";
 </script>
 
 <main>
-  <div class="landing-page">
+  <div class="page">
     <div class="width-90">
       <Header headerText="Hi, I'm James" />
     </div>
@@ -16,10 +17,18 @@
       <LowerText />
     </div>
   </div>
+  <div class="page">
+    <div class="width-90">
+      <Header headerText="Map" />
+    </div>
+    <div class="width-90">
+      <Map />
+    </div>
+  </div>
 </main>
 
 <style>
-  .landing-page {
+  .page {
     display: flex;
     flex-flow: column;
     height: 100vh;
