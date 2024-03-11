@@ -3,6 +3,7 @@
   import Header from "./components/Header.svelte";
   import LowerText from "./components/LowerText.svelte";
   import Map from "./components/Map.svelte";
+  import Skills from "./components/Skills.svelte";
 </script>
 
 <main>
@@ -20,9 +21,13 @@
   <div class="page">
     <div class="width-90">
       <Header headerText="Map" />
-    </div>
-    <div class="width-90">
       <Map />
+    </div>
+    <div class="page">
+      <div class="width-90">
+        <Header headerText="Skills" />
+        <Skills />
+      </div>
     </div>
   </div>
 </main>
