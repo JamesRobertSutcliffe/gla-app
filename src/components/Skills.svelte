@@ -1,6 +1,8 @@
 <script>
   import { quantize, interpolatePlasma, pie, arc } from "d3";
   import data from "../data/skills"; // or pass data to component as prop
+  import Aside from "./Aside.svelte";
+  import { skillsText } from "../data/text";
 
   const width = 570; // the outer width of the chart, in pixels
   const height = width; // the outer height of the chart, in pixels
@@ -42,8 +44,8 @@
   const arcLabel = arc().innerRadius(labelRadius).outerRadius(labelRadius);
 </script>
 
+<h2>Division of my programming language / framework knowledge.</h2>
 <div class="center">
-  <h2>Division of my programming language / framework knowledge.</h2>
   <svg {width} {height} viewBox="{-width / 2} {-height / 2} {width} {height}">
     {#each wedges as wedge, i}
       <path
@@ -65,14 +67,25 @@
       </g>
     {/each}
   </svg>
+  <div class="width-50">
+    <Aside text={skillsText} />
+  </div>
 </div>
 
 <style>
   .center {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     align-items: center;
     height: 75vh;
+  }
+
+  .width-50 {
+    width: 40%;
+  }
+
+  h2 {
+    text-align: center;
   }
 </style>
