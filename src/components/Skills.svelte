@@ -43,6 +43,7 @@
 </script>
 
 <div class="center">
+  <h2>Division of my programming language / framework knowledge.</h2>
   <svg {width} {height} viewBox="{-width / 2} {-height / 2} {width} {height}">
     {#each wedges as wedge, i}
       <path
@@ -69,7 +70,9 @@
 <style>
   .center {
     display: flex;
-    flex-direction: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 75vh;
   }
 </style>
