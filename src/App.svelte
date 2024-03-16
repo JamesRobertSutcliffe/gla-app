@@ -68,12 +68,16 @@
           href="https://github.com/JamesRobertSutcliffe/gla-app"
           target="_blank">this page</a
         >
-        <span>(Svelte, D3.js)</span>, Worldle Clone<span>(React)</span>,
+        <span>(Svelte, D3.js)</span>,
+        <a
+          href="https://wordle-mreu-gc7magqvl-jamesrobertsutcliffe.vercel.app/"
+          target="_blank">Worldle Clone</a
+        ><span>(React)</span>,
         <a href="https://react-todo-list-tau-orpin.vercel.app/" target="_blank"
           >React To Do List</a
         ><span>(React)</span>,
         <a
-          href="https://github.com/JamesRobertSutcliffe/personality-music-recommender"
+          href="https://personality-music-recommender-jer1.vercel.app/"
           target="_blank">Personality Music Recommender</a
         >
         - WORK IN PROGRESS<span>(next.js, SQL, Typescript)</span>,
