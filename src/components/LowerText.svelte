@@ -9,7 +9,7 @@
 
 <style>
   p {
-    margin: 7rem 2rem 3.5rem 2rem;
+    margin: 2rem 2rem 3.5rem 2rem;
     padding: 2rem;
     font-size: 1rem;
   }
