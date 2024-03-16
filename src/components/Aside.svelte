@@ -8,6 +8,7 @@
 
 <style>
   p {
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
   }
 </style>
